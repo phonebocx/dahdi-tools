@@ -38,6 +38,14 @@ my %usb_ids = (
 	
 	# Sangoma USB FXO:
 	'10c4:8461'	=> { DRIVER => 'wanpipe', DESCRIPTION => 'Sangoma WANPIPE USB-FXO Device' },
+
+	# ClearlyIP (SGM) USB FXO/FXS using the ua32xx driver (aka S300)
+	'e4e5:a320' => { DRIVER => 'ua32xx', DESCRIPTION => 'SGM UA32XX USB-FXO/FXS device' },
+	'e4e5:a082' => { DRIVER => 'ua32xx', DESCRIPTION => 'SGM UA32XX USB-FXO/FXS device' },
+	'e4e5:a085' => { DRIVER => 'ua32xx', DESCRIPTION => 'SGM UA32XX USB-FXO/FXS device' },
+	'e4e5:a508' => { DRIVER => 'ua32xx', DESCRIPTION => 'SGM UA32XX USB-FXO/FXS device' },
+	'e4e5:a504' => { DRIVER => 'ua32xx', DESCRIPTION => 'SGM UA32XX USB-FXO/FXS device' },
+	'e4e5:a518' => { DRIVER => 'ua32xx', DESCRIPTION => 'SGM UA32XX USB-FXO/FXS device' },
 	);
 
 

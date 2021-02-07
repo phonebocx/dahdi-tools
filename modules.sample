@@ -65,3 +65,5 @@ wctc4xxp
 # Xorcom Astribank Devices
 xpp_usb
 
+# SGM FXS/FXO from ClearlyIP (aka S300)
+ua32xx
